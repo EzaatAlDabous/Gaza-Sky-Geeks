@@ -5,14 +5,14 @@ const addTweetButton = document.getElementById("add-tweet-button");
 
 const tweets = [
   {
-    tweet_author: "Izzat",
+    tweet_author: "Ezaat",
     tweet_text: "tweet.value",
   },
 ];
 addTweetButton.addEventListener("click", (e) => {
   e.preventDefault();
   const newTweet = {
-    tweet_author: "Izzat",
+    tweet_author: "Ezaat",
     tweet_text: tweet.value,
   };
   tweets.push(newTweet);
